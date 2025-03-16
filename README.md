@@ -33,13 +33,14 @@ git clone https://github.com/yourusername/SimpleBruteForce.git
 cd SimpleBruteForce
 ```
 
-### Step 2: Install Dependencies
+### Step 2: Activate Environment and Install Dependencies 
 ```bash
+source venv/bin/activate
 pip install flask requests
 ```
 
 ### Step 3: Prepare a Wordlist (Optional)
-For educational testing, you can use a small custom wordlist:
+For educational testing, you can use a small custom wordlist: (a simple wordlist is already in the folder)
 ```bash
 echo "password123" > wordlist.txt
 echo "admin" >> wordlist.txt
@@ -98,10 +99,3 @@ To learn more about web security:
 - [Web Security Academy](https://portswigger.net/web-security)
 - [Mozilla Web Security Guidelines](https://infosec.mozilla.org/guidelines/web_security)
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📧 Contact
-
-If you have any questions about this educational project, please contact me at your.email@example.com or through my GitHub profile.
